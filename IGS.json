@@ -9,26 +9,26 @@
     "ip": "Blackzinho030912.aternos.me",
     "port": 47038,
     "version": "1.17.1",
-    "try-creative": False,
+    "try-creative": false,
   },
   "position": {
-    "enabled": True,
+    "enabled": true,
     "x": 0,
     "y": 100,
     "z": 0
   },
   "utils": {
     "auto-auth": {
-      "enabled": True,
+      "enabled": true,
       "password": "chalol78"
     },
     "anti-afk": {
-      "enabled": True,
+      "enabled": true,
       "sneak": True
     },
     "chat-messages": {
-      "enabled": True,
-      "repeat": True,
+      "enabled": true,
+      "repeat": true,
       "repeat-delay": 120,
       "messages": [
         "eu sou o bot que vai manter o servidor ligado agradeça ao Black",
@@ -36,49 +36,49 @@
         "I like to play Minecraft!"
       ]
     },
-    "chat-log": True,
-    "auto-reconnect": True,
+    "chat-log": Ttrue,
+    "auto-reconnect": true,
     "auto-reconnect-delay": 1000,
     "max-reconnect-delay": 1200
   },
   "movement": {
-    "enabled": True,
+    "enabled": true,
     "circle-walk": {
-      "enabled": True,
+      "enabled": true,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": True,
+      "enabled": true,
       "interval": 5000
     },
     "random-jump": {
-      "enabled": True,
+      "enabled": true,
       "interval": 10000
     }
   },
   "modules": {
-    "avoidMobs": True,
-    "combat": True,
-    "beds": False,
-    "chat": True,
-    "console-commands": True
+    "avoidMobs": true,
+    "combat": true,
+    "beds": false,
+    "chat": true,
+    "console-commands": true
   },
   "combat": {
-    "attack-mobs": True,
-    "auto-eat": True
+    "attack-mobs": true,
+    "auto-eat": true
   },
   "beds": {
-    "pick-up-day": False,
-    "place-night": False
+    "pick-up-day": false,
+    "place-night": false
   },
   "discord": {
-    "enabled": False,
+    "enabled": false,
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
-      "connect": True,
-      "disconnect": True,
-      "chat": True
+      "connect": true,
+      "disconnect": true,
+      "chat": true
     }
   },
   "chat": {
