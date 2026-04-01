@@ -1,0 +1,87 @@
+{
+  "name": "AFK lot",
+  "bot-account": {
+    "username": "Slobot00",
+    "password": "",
+    "type": "offline"
+  },
+  "server": {
+    "ip": "Blackzinho030912.aternos.me",
+    "port": 47038,
+    "version": "1.17.1",
+    "try-creative": False,
+  },
+  "position": {
+    "enabled": True,
+    "x": 0,
+    "y": 100,
+    "z": 0
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": True,
+      "password": "chalol78"
+    },
+    "anti-afk": {
+      "enabled": True,
+      "sneak": True
+    },
+    "chat-messages": {
+      "enabled": True,
+      "repeat": True,
+      "repeat-delay": 120,
+      "messages": [
+        "eu sou o bot que vai manter o servidor ligado agradeça ao Black",
+        "Subscribe to Slobos!",
+        "I like to play Minecraft!"
+      ]
+    },
+    "chat-log": True,
+    "auto-reconnect": True,
+    "auto-reconnect-delay": 1000,
+    "max-reconnect-delay": 1200
+  },
+  "movement": {
+    "enabled": True,
+    "circle-walk": {
+      "enabled": True,
+      "radius": 4,
+      "speed": 3000
+    },
+    "look-around": {
+      "enabled": True,
+      "interval": 5000
+    },
+    "random-jump": {
+      "enabled": True,
+      "interval": 10000
+    }
+  },
+  "modules": {
+    "avoidMobs": True,
+    "combat": True,
+    "beds": False,
+    "chat": True,
+    "console-commands": True
+  },
+  "combat": {
+    "attack-mobs": True,
+    "auto-eat": True
+  },
+  "beds": {
+    "pick-up-day": False,
+    "place-night": False
+  },
+  "discord": {
+    "enabled": False,
+    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "events": {
+      "connect": True,
+      "disconnect": True,
+      "chat": True
+    }
+  },
+  "chat": {
+    "respond": True
+  }
+}
